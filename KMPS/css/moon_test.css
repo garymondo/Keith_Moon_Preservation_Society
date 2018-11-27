@@ -1,0 +1,341 @@
+@charset "UTF-8";
+/* CSS Document */
+@import "bourbon";
+body{
+		background-color:#000;
+}
+
+@media (min-width:769px)and (max-width:2800px) {
+
+
+.moon_unit {
+/*	  display:block;
+*/	height: 680px;
+	width: 555px;
+	position: relative;
+	/*margin:auto;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;*/
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5%;
+	
+	-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px; /* future proofing */
+-khtml-border-radius: 50px; /* for old Konqueror browsers */
+overflow:hidden;
+shape-rendering="crispEdges"
+
+
+}
+
+.Face_test {
+	  display:block;
+	height: 680px;
+	width: 555px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	shape-rendering="crispEdges"
+
+}
+
+.Face_shade {
+	  display:block;
+	height: 680px;
+	width: 555px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+		opacity: 5;
+	filter: alpha(opacity=50);
+	shape-rendering="crispEdges"
+
+}
+
+
+
+.ace_bkg_2 {
+	  display:block;
+	height: 671px;
+	width: 555px;
+	position: absolute;
+	left: 0px;
+		background-color:#fff;
+		transition: background-color 5s ease; /* future-proof */
+-webkit-transition: background-color 5s ease;
+-moz-transition: background-color 5s ease;
+-o-transition: background-color 5s ease;
+-ms-transition: background-color 5s ease;/* IE10+ only */
+shape-rendering="crispEdges"
+
+  
+
+}
+
+
+.cls-2,.cls-4,.cls-2_clothes{
+	transition: fill 5s ease; /* future-proof */
+-webkit-transition: fill 5s ease;
+-moz-transition: fill 5s ease;
+-o-transition: fill 5s ease;
+-ms-transition: fill 5s ease;/* IE10+ only */
+shape-rendering="crispEdges"
+
+}
+
+.cls-2_shade {
+		opacity: 3;
+	filter: alpha(opacity=30);
+	transition: fill 5s ease; /* future-proof */
+-webkit-transition: fill 5s ease;
+-moz-transition: fill 5s ease;
+-o-transition: fill 5s ease;
+-ms-transition: fill 5s ease;/* IE10+ only */
+shape-rendering="crispEdges"
+
+}
+
+.cls-1_bkg {
+	
+	transition: fill 5s ease; /* future-proof */
+-webkit-transition: fill 5s ease;
+-moz-transition: fill 5s ease;
+-o-transition: fill 5s ease;
+-ms-transition: fill 5s ease;/* IE10+ only */
+shape-rendering="crispEdges"
+
+}
+
+
+
+
+svg{
+  display:block;
+  width: 100%;
+  margin:0vh auto;  
+  @include transform(scale(3));
+
+	transition: background-color 10s ease; /* future-proof */
+-webkit-transition: background-color 10s ease;
+-moz-transition: background-color 10s ease;
+-o-transition: background-color 10s ease;
+-ms-transition: background-color 10s ease;/* IE10+ only */
+ shape-rendering="crispEdges"
+ 
+}
+
+
+body {
+background-color: #000;	
+margin:0;
+transition: background-color 10s ease; /* future-proof */
+-webkit-transition: background-color 10s ease;
+-moz-transition: background-color 10s ease;
+-o-transition: background-color 10s ease;
+-ms-transition: background-color 10s ease;/* IE10+ only */
+	
+	
+}
+
+#container {
+width: 100%;
+height: 100%;
+position:relative;
+/*margin-left:auto;
+margin-right:auto;*/
+/*background-color:#27F412;
+*/
+/*  min-height: 10em;
+    display: table-cell;
+    vertical-align: middle*/
+  
+/* -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;*/
+}
+
+
+
+/*#splat_contain {
+	margin-top:20%;
+	position:absolute;
+width: 201px;
+	height: 201px;
+	margin-left:auto;
+margin-right:auto;
+}*/
+
+.legal_T {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 9px;
+	color: #666;
+	float: left;
+	height: 10px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	margin: 5px;
+}
+
+}
+
+
+@media (min-width:200px)and (max-width:768px) {
+
+
+
+
+
+.moon_unit {
+/*	  display:block;
+*/	height: 490px;
+	width: 400px;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5%;
+	
+	-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px; /* future proofing */
+-khtml-border-radius: 50px; /* for old Konqueror browsers */
+overflow:hidden;
+
+}
+
+.Face_test {
+	  display:block;
+	height: auto;
+	width:100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.Face_shade {
+	  display:block;
+	height: auto;
+	width:100%;
+		position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+		opacity: 5;
+	filter: alpha(opacity=50);
+}
+
+
+
+.ace_bkg_2 {
+	  display:block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+		background-color:#fff;
+		transition: background-color 5s ease; /* future-proof */
+-webkit-transition: background-color 5s ease;
+-moz-transition: background-color 5s ease;
+-o-transition: background-color 5s ease;
+-ms-transition: background-color 5s ease;/* IE10+ only */
+  
+
+}
+
+
+.cls-2,.cls-4,.cls-2_clothes{
+	transition: fill 5s ease; /* future-proof */
+-webkit-transition: fill 5s ease;
+-moz-transition: fill 5s ease;
+-o-transition: fill 5s ease;
+-ms-transition: fill 5s ease;/* IE10+ only */
+}
+
+.cls-2_shade {
+		opacity: 3;
+	filter: alpha(opacity=30);
+	transition: fill 5s ease; /* future-proof */
+-webkit-transition: fill 5s ease;
+-moz-transition: fill 5s ease;
+-o-transition: fill 5s ease;
+-ms-transition: fill 5s ease;/* IE10+ only */
+}
+
+
+
+
+
+svg{
+	position:relative;
+	top: 0;
+	left: 0;
+  display:block;
+  width: 100%;
+  height: auto;
+  margin:0vh auto;  
+  transition: background-color 10s ease; /* future-proof */
+-webkit-transition: background-color 10s ease;
+-moz-transition: background-color 10s ease;
+-o-transition: background-color 10s ease;
+-ms-transition: background-color 10s ease;/* IE10+ only */
+viewBox:5 0 90 100;
+
+  
+}
+
+
+body {
+background-color: #000;	
+margin:0;
+transition: background-color 10s ease; /* future-proof */
+-webkit-transition: background-color 10s ease;
+-moz-transition: background-color 10s ease;
+-o-transition: background-color 10s ease;
+-ms-transition: background-color 10s ease;/* IE10+ only */
+	
+	
+}
+
+#container {
+width: 90%;
+height: 100%;
+position:relative;
+/*margin-left:auto;
+margin-right:auto;*/
+/*background-color:#27F412;
+*/
+/*  min-height: 10em;
+    display: table-cell;
+    vertical-align: middle*/
+  
+/* -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;*/
+}
+
+
+
+.legal_T {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 9px;
+	color: #666;
+	float: left;
+	height: 10px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	margin: 5px;
+
+
+}
